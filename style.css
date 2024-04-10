@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  background-image: url('https://i.pinimg.com/564x/0f/f5/1a/0ff51ad4b26b846f27712325f03c2e13.jpg'); /* Adjust the path to your image file */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Fixed background position */
+}
+
+header {
+  padding: 0%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensures the header appears on top of other content */
+}
+
+main {
+  margin-top: 80px; /* Adjust this value according to your header's height */
+  padding: 20px;
+}
+
+.content {
+  text-align: right;
+  position: relative;
+}
+
+.jumbotron {
+  background-color: #f8f9fa; /* Set background color */
+  padding: 80px; /* Adjust padding to create spacing */
+  text-align: center; /* Center-align content */
+}
+
+.jumbotron h1 {
+  font-size: 48px; /* Set font size for headline */
+  margin-bottom: 20px; /* Add spacing below headline */
+}
+
+.jumbotron p {
+  font-size: 18px; /* Set font size for paragraph */
+  margin-bottom: 30px; /* Add spacing below paragraph */
+}
+
+.btn {
+  display: inline-block; /* Display button inline */
+  padding: 10px 20px; /* Add padding to button */
+  background-color: #007bff; /* Set background color for button */
+  color: #fff; /* Set text color for button */
+  text-decoration: none; /* Remove underline from link */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  transition: background-color 0.3s; /* Add smooth transition effect */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: fantasy;
+    color: rgb(184, 168, 79);
+    text-shadow: 1rem;    
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: fantasy;
+  color: rgb(184, 168, 79);
+  text-shadow: 1rem;    
+}
+
+p{
+    text-align: center;
+}
+
+.po {
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 30px;
+}
+
+.paragraph{
+  text-align: center;
+  font-weight: normal;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.box {
+  background-color: #a8d8bf;
+  border-radius: 5px;
+  margin-top: 80px; /* Adjust this value according to your header's height */
+  padding: 20px;
+}
+
+.element-with-padding {
+    padding-top: 20px;
+    background-color: rgb(4, 71, 36);
+    margin-bottom: 1rem;
+  }
+
+  .logo {
+    display: inline-block;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-width: 100px; /* Adjust as needed */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: right;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: #fff;
+    color: rgb(223, 225, 224);
+  }
+  
+  nav ul li a:hover {
+    background-color: #9bbcde;
+  }
+
+  .search {
+    display: inline-block;
+    align-items: end;
+  }
+  
+  .search input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px; /* Adjust width as needed */
+  }
+  
+  .search button {
+    border: none;
+    background-color: #68e149; /* Adjust button color */
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search button:hover {
+    background-color: #7fa1c5; /* Adjust hover color */
+  }
+  
+  /* Position search bar in the top left corner */
+  .search {
+    margin-left: initial;
+  }
+
+
+  
